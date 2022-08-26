@@ -1,15 +1,35 @@
-Kobuki
-======
+# 「ROS2とPythonで作って学ぶAIロボット入門」のためのKobukiモデル
 
-This repository holds the ROS wrapper of [Kobuki's C++ driver](https://github.com/yujinrobot/kobuki_core) plus various ROS tools and applications.
+## 概要
 
-![Kobuki Logo](http://kobuki.yujinrobot.com/wp-content/uploads/2015/07/iclebo-kobuki-logo-e1437635225432.png)
+- Yujin Robot社の移動ロボットKobukiのROS2用のパッケージを「ROS2とPythonで作って学ぶAIロボット入門」の教材のために変更したものです．
+- GitHubの[kobuki-base/kobuki_ros](https://github.com/kobuki-base/kobuki_ros)からフォークしました．変更内容は，`airobotbook`ブランチにあります．
 
-### Documentation ###
+## インストール
 
-* [Official Web Page](http://kobuki.yujinrobot.com) - home page, sales, specifications and hardware howto.
-* [Protocol, Usage and Api Documentation](http://yujinrobot.github.com/kobuki/doxygen/index.html) - in doxygen.
-* [Ros Usage and Tutorials](http://www.ros.org/wiki/kobuki) - on the roswiki.
-* [Turtlebot Reference Platform](http://www.ros.org/wiki/Robots/TurtleBot) - kobuki has been designed to meet the requirements of [ROS REP #119](http://www.ros.org/reps/rep-0119.html) to support turtlebot.
+- [AI-Robot-Book/turtlebot2_airobotbook](https://github.com/AI-Robot-Book/turtlebot2_airobotbook)の「インストール」の節を参照してください．
 
+## 実行
 
+- [AI-Robot-Book/turtlebot2_airobotbook](https://github.com/AI-Robot-Book/turtlebot2_airobotbook)の「実行」の節を参照してください．
+
+## ヘルプ
+
+## 著者
+
+升谷 保博
+
+## 履歴
+
+- 2022-08-26: ライセンス・ドキュメントの整備
+
+## ライセンス
+
+Copyright (c) 2022, MASUTANI Yasuhiro  
+All rights reserved.  
+This project is licensed under the Apache License 2.0 license found in the LICENSE file in the root directory of this project.
+
+## 参考文献
+
+- https://github.com/kobuki-base/kobuki_ros
+- https://github.com/AI-Robot-Book/turtlebot2_airobotbook
